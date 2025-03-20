@@ -49,9 +49,9 @@ const projectData: Project[] = [
     title: 'Personal Portfolio',
     description: 'My personal portfolio website showcasing my projects and skills.',
     tags: ['React', 'Tailwind CSS', 'Vite', 'Framer Motion'],
-    image: 'https://images.unsplash.com/photo-1545239351-ef35f43d514b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
-    github: 'https://github.com/yourusername/portfolio',
-    demo: 'https://yourportfolio.dev'
+    image: '/portfolio.png',
+    
+    demo: 'https://portfolio-pi-two-35.vercel.app/'
   },
   {
     id: 'chatapp',
