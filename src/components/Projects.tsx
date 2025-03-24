@@ -53,24 +53,24 @@ const projectData: Project[] = [
     
     demo: 'https://portfolio-pi-two-35.vercel.app/'
   },
-  {
-    id: 'chatapp',
-    title: 'Real-time Chat Application',
-    description: 'A real-time chat application with features like group chats, direct messaging, and file sharing.',
-    tags: ['React', 'Socket.io', 'Express', 'MongoDB'],
-    image: 'https://images.unsplash.com/photo-1611606063065-ee7946f0787a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
-    github: 'https://github.com/yourusername/chatapp',
-    demo: 'https://chatapp-demo.vercel.app'
-  },
-  {
-    id: 'ecommerce',
-    title: 'E-commerce Platform',
-    description: 'A fully-featured e-commerce platform with product listings, cart functionality, and payment processing.',
-    tags: ['Next.js', 'Redux', 'Stripe', 'MongoDB'],
-    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
-    github: 'https://github.com/yourusername/ecommerce',
-    demo: 'https://ecommerce-demo.vercel.app'
-  }
+  // {
+  //   id: 'chatapp',
+  //   title: 'Real-time Chat Application',
+  //   description: 'A real-time chat application with features like group chats, direct messaging, and file sharing.',
+  //   tags: ['React', 'Socket.io', 'Express', 'MongoDB'],
+  //   image: 'https://images.unsplash.com/photo-1611606063065-ee7946f0787a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
+  //   github: 'https://github.com/yourusername/chatapp',
+  //   demo: 'https://chatapp-demo.vercel.app'
+  // },
+  // {
+  //   id: 'ecommerce',
+  //   title: 'E-commerce Platform',
+  //   description: 'A fully-featured e-commerce platform with product listings, cart functionality, and payment processing.',
+  //   tags: ['Next.js', 'Redux', 'Stripe', 'MongoDB'],
+  //   image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
+  //   github: 'https://github.com/yourusername/ecommerce',
+  //   demo: 'https://ecommerce-demo.vercel.app'
+  // }
 ];
 
 const ProjectCard: React.FC<{ project: Project; index: number }> = ({ project, index }) => {
