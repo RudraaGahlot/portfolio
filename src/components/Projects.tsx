@@ -18,22 +18,22 @@ interface Project {
 
 const projectData: Project[] = [
   {
-    id: 'nirmanai',
-    title: 'NirmanAI (SaaS AI Platform)',
-    description: 'A full-stack SaaS platform with integrated AI-driven tools for image, video, music, and code generation.',
-    tags: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'MySQL', 'Prisma', 'Stripe'],
-    image: '/assests/nirmanai.png',
-    github: 'https://github.com/yourusername/nirmanai',
-    demo: 'https://nirmanai-demo.vercel.app'
+    id: 'elev-ai',
+    title: 'Elev-AI (AI-Driven Career Platform)',
+    description: 'A full-stack web platform with integrated AI-driven tools for building resume, cover letter, interview Prep and industry insights.',
+    tags: ['Next.js', 'React', 'JavaScript', 'Tailwind CSS', 'PostgresSQL', 'Prisma'],
+    image: '/elevAI.png',
+    github: 'https://github.com/RudraaGahlot/elev-ai',
+    demo: 'https://elev-ai-seven.vercel.app/'
   },
   {
     id: 'prepnest',
     title: 'PrepNest (AI-Mocker-Interview)',
     description: 'An AI-powered interview preparation platform that helps users prepare for various roles with mock interviews.',
     tags: ['React', 'JavaScript', 'Tailwind CSS', 'MySQL', 'Prisma', 'Stripe', 'Clerk', 'Gen AI'],
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
-    github: 'https://github.com/yourusername/prepnest',
-    demo: 'https://prepnest-demo.vercel.app'
+    image: '/prepNest.png',
+    github: '',
+    demo: 'https://ai-interview-mocker-three-omega.vercel.app/'
   },
   {
     id: 'fintrack',
